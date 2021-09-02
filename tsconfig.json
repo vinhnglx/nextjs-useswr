@@ -1,5 +1,20 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "app/*": [
+        "app/*"
+      ],
+      "nextDir/*": [
+        "next/*"
+      ],
+      "test/*": [
+        "test/*"
+      ],
+      "server/*": [
+        "server/*"
+      ]
+    },
     "target": "es5",
     "lib": [
       "dom",
